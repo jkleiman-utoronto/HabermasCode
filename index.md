@@ -28,3 +28,15 @@ You can learn more about HTML tags at [mozilla](https://developer.mozilla.org/en
 | can you add a third column to the table?  | can you change the width of the columns, and other style attributes? |
 
 
+<style>
+div.left {
+    float: left;
+    width: 50%;
+    margin:0%;
+}
+div.right {
+    float:left;
+    width: 50%;
+    margin: 0%;
+}
+</style>
