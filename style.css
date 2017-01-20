@@ -20,7 +20,38 @@ p.main {
 
 }
 
+
 p.main {
 
 }
 
+#bad-news {transition: all 3s, transform 3s 3s;
+           margin: inherit;
+           max-width: inherit;
+           border: inherit;
+           font-size: inherit;
+          }
+#bad-news:hover {
+    margin: auto;
+    max-width:50%;
+    border: black 10px solid;
+    background-color: red;
+    font-size: 3em;
+    padding: 75px;
+    border-radius: 30%;
+    transform: rotate(360deg);
+    //transition: width 2s, margin 2s, all 3s 1s;
+}
+.do-transition {
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    -ms-transition: 3s;
+    -o-transition: 3s;
+    transition: all 3s;
+    margin: auto !important;
+    max-width:50% !important;
+    border: black 10px solid !important;
+    background-color: #8e0934!important;
+    font-size: 3em!important;
+    transform: skewx(50deg);
+}
