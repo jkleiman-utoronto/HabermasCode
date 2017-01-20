@@ -1,5 +1,5 @@
 # HabermasCode
-Downloadable version of the Habermas-through-code JSBin exercise
+The same exercise we did last week, but this time in CSS.
 
 ## Installation
 Fork this repository on Github, then clone at the command line with 
@@ -13,6 +13,8 @@ Open in Atom and edit the files. You will need an HTML previewer such as `atom-h
 
 `index.html` is the main file, and you can make most of your hanges there.
 
-You can also experiment with `index.md`, which demonstrates both the __simplicity__ of Markdown, and its __limitations__. The javascript and style information is not included here since Github-Flavoured Markdown (GFM) strips those tags when rendering.  
+You can also experiment with `index.md`, which demonstrates both the __simplicity__ of Markdown, and its __limitations__. The javascript and style information is not included here since Github-Flavoured Markdown (GFM) strips those tags when rendering.
+
+
 
 
