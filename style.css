@@ -87,6 +87,23 @@ blockquote {
     transition: all 6s;
 }
 
+.hidden {
+    opacity: 0%;
+    font-size: 0.6em;
+    color: inherit;
+
+}
+.bugout {
+    transition: all 8s;
+    border-radius: 10px;
+    border: blue 2px solid;
+    font-size: 1.5em !important;
+    color: red;
+    max-width: 50%;
+    margin:auto;
+    opacity: 100%;
+}
+
 .do-transition {
     transition: all 6s;
     margin: auto !important;
