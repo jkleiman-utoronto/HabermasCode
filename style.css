@@ -1,16 +1,53 @@
-div.left {
-    float: ;
-    width: ;
-    margin:;
+
+/* just put the borders up here for fun.  */
+main, section, header, footer {
+    border-width: 3px;
+    border-style: solid;
 }
-div.right {
-    float:;
-    width: ;
-    margin:;
+
+
+header, footer {
+    border-color: magenta;
+    
+}
+
+main {
+    border-color: #999999;
+}
+
+section {
+    border-color: rgb(40, 200, 40);
+}
+
+
+/* start the real code here!!  */
+
+/* let's not worry about display layouts at the start! */
+body {
+    display: flex;
+    flex-direction: column;   
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    flex-grow: 4;
+}
+
+header {
+
+}
+
+footer{
+
 }
 
 h2 {
 
+}
+
+p {
+    
 }
 
 p.start {
@@ -20,18 +57,21 @@ p.main {
 
 }
 
-
-p.main {
+blockquote {
 
 }
 
-#bad-news {transition: all 3s, transform 3s 3s;
+/* Transition :-) */
+#badnews {transition: all 5s, transform 5s 3s;
            margin: inherit;
            max-width: inherit;
            border: inherit;
            font-size: inherit;
           }
-#bad-news:hover {
+
+
+
+#badnews:hover {
     margin: auto;
     max-width:50%;
     border: black 10px solid;
@@ -40,18 +80,19 @@ p.main {
     padding: 75px;
     border-radius: 30%;
     transform: rotate(360deg);
-    //transition: width 2s, margin 2s, all 3s 1s;
+    transition: width 6s, margin 6s, all 6s 1s;
 }
+
+.button {
+    transition: all 6s;
+}
+
 .do-transition {
-    -webkit-transition: 3s;
-    -moz-transition: 3s;
-    -ms-transition: 3s;
-    -o-transition: 3s;
-    transition: all 3s;
+    transition: all 6s;
     margin: auto !important;
-    max-width:50% !important;
     border: black 10px solid !important;
-    background-color: #8e0934!important;
-    font-size: 3em!important;
-    transform: skewx(50deg);
+    background-color: #8e0934 !important;
+    font-size: 5em !important;
+    transform: skewX(-45deg) translate(40vw, -50vh) rotate(-45deg);
+    transform-origin: left 90%;
 }
