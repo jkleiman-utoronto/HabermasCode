@@ -1,5 +1,8 @@
 # HabermasCode
 
+This is an exercise to get you used to editing HTML and a tiny bit of CSS (tiny!). It's a toy repo that you can experiment with as you want. It may be a btter place to start than your assignment 01 repo.  
+
+
 The same exercise we did last week, but this time in CSS. You can also try this [on JSBin](http://jsbin.com/yawujap/1/edit?html,css,js,output)
 
 (NOTE: this is not really the right way to make two versions of a repo! Instead, we should just have two forks -- one HTML, one CSS -- and periodically [rebase](https://www.atlassian.com/git/tutorials/merging-vs-rebasing) each other's changes. But I was afraid that might be hard to do in class... so here we are instead.
