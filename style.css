@@ -24,14 +24,15 @@ section {
 
 /* let's not worry about display layouts at the start! */
 body {
-    display: flex;
+    display: grid;
+    grid-template-rows: 100px 1fr 200px;
     flex-direction: column;   
 }
+
 
 main {
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-    flex-grow: 4;
 }
 
 header {
@@ -58,8 +59,12 @@ p.main {
 }
 
 blockquote {
-
+    padding-left: 10px;
+    margin-left: 5px;
+    border-left: solid rgba(128,128,128,0.7) 3px;
 }
+
+
 
 /* Transition :-) */
 #badnews {transition: all 5s, transform 5s 3s;
