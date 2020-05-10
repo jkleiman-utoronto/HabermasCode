@@ -43,6 +43,17 @@ footer{
 
 }
 
+
+/* style */
+img {
+    max-width: 65%;
+    padding:2px;
+    border: 1px solid black;
+    margin: 5px;
+    float: left;
+    display: inline;
+   
+}
 h2 {
 
 }
